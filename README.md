@@ -1,5 +1,8 @@
 # Simple CD pipeline demo at scale with Jenkins Swarm,Docker Swarm and Goland
 
+For my local machine, run 
+
+docker run -d -p 8888:8080 --name jenkins_blueocean -v jenkins_data:/var/jenkins_home jenkinsci/blueocean:latest
 
 [![CD pipeline demo at scale with Jenkins Swarm,Docker Swarm and Goland](https://img.youtube.com/vi/USxRrMWzK1s/0.jpg)](https://youtu.be/USxRrMWzK1s "The video is a step by step tutorial for a simple Golang application and how to create a continuous delivery pipeline using  Jenkins Swarm ,Docker swarm, Docker Secrets")
 
